@@ -12,6 +12,8 @@ standard library only — no dependencies.
 
 ![floppydisk scanning a full disk — live ASCII sunburst map](assets/demo.gif)
 
+💬 Questions? [Chat with this repo](https://githubchat.spacehendrix.com/#url=https%3A%2F%2Fgithub.com%2Fspacehendrix%2Ffloppydisk%2Ftree%2Fmain)
+
 ## What it does
 
 Same concept as DaisyDisk:
