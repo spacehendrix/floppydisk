@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "floppydisk"
-version = "0.1.0"
+version = "1.0.0"
 description = "A DaisyDisk-style disk usage scanner and cleaner for the terminal"
 readme = "README.md"
 requires-python = ">=3.9"
