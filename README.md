@@ -10,22 +10,7 @@ A [DaisyDisk](https://daisydiskapp.com/)-style storage scanner and cleaner
 that lives entirely in your terminal, drawn in ASCII/Unicode. Pure Python,
 standard library only — no dependencies.
 
-```
- floppydisk — /Users/you/Documents                                   84.1 GB
-                                          │   name                      size    %
-              ██████████████              │ ●  ▸ video      ████████  41.2 GB  49%
-          ██████████████████████          │ ●  ▸ projects   ████▎     22.0 GB  26%
-        ███████▒▒▒▒▒▒▒▒▒▒▒████████        │ ●  ▸ photos     ██▋       13.9 GB  17%
-      ██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████     │ ●  · backup.zip █          5.1 GB   6%
-     ██████▒▒▒▒           ▒▒▒▒██████      │ ●  ▸ misc       ▏          1.9 GB   2%
-     █████▒▒▒   Documents   ▒▒▒█████      │
-     ██████▒▒    84.1 GB    ▒▒██████      │
-      ██████▒▒   5 items   ▒▒███████      │
-        ████████▒▒▒▒▒▒▒▒▒████████         │
-          ██████████████████████          │
-              ██████████████              │
- ↑↓ move  ⏎ open  ⌫ up  c collect  C bin  x trash  s sort  r rescan  ? help
-```
+![floppydisk scanning a full disk — live ASCII sunburst map](assets/demo.gif)
 
 ## What it does
 
