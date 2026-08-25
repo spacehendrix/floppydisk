@@ -1,0 +1,80 @@
+.claude 
+.claude-backup
+.claude-mcp-backup
+.mcp.json
+.DS_Store
+node_modules
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+dist
+build
+out
+.bluera
+.bluera-backup
+
+# Package managers
+.pnpm-store/
+.pnpm-debug.log*
+.npmrc.local
+
+# Build caches
+.turbo/
+.tsbuildinfo
+*.tsbuildinfo
+.eslintcache
+
+# Test / coverage
+coverage/
+.nyc_output/
+.vitest/
+*.lcov
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl.local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+
+# Python (scripts/)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.direnv/
+
+# LocalStack data (local dev)
+infra/local/.localstack/
+infra/local/volume-*/
+# Terraform plan outputs (no extension variant)
+tfplan
+**/tfplan
+
+# App packaging
+release/
