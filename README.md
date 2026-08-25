@@ -47,14 +47,23 @@ Same concept as DaisyDisk:
   everything to the Trash (recoverable — nothing is permanently deleted).
 - **Reveal in Finder** with `o`.
 
-## Run it
+## Install
+
+With Homebrew (recommended):
+
+```sh
+brew install spacehendrix/tap/floppydisk
+floppydisk
+```
+
+Or from a clone, with no install at all — it's pure standard library:
 
 ```sh
 python3 -m floppydisk            # volume picker
 python3 -m floppydisk ~/Movies   # scan a folder directly
 ```
 
-Or install it as a command:
+Or as a pip package:
 
 ```sh
 pipx install .    # or: pip install .
